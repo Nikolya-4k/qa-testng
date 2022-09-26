@@ -1,0 +1,22 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Smoke tests">
+    <test name="PrintText">
+        <groups>
+                <define name="all">
+                    <include name="smoke"/>
+                    <include name="regression"/>
+                </define>
+
+                <run>
+                    <include name="smoke"/>
+                    <exclude name="regression"/>
+                </run>
+        </groups>
+        
+        <classes>
+            <class name="ua.ithillel.testng.GroupTest"/>
+        </classes>
+    </test>
+</suite>
