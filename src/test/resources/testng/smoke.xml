@@ -16,7 +16,7 @@
         </groups>
         
         <classes>
-            <class name="ua.ithillel.testng.GroupTest"/>
+            <class name="testng.GroupTest"/>
         </classes>
     </test>
 </suite>

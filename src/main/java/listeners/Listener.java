@@ -1,4 +1,4 @@
-package ua.ithillel.listeners;
+package listeners;
 
 import org.testng.ITestResult;
 import org.testng.TestListenerAdapter;

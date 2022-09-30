@@ -1,4 +1,4 @@
-package ua.ithillel.testng;
+package testng;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
