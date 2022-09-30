@@ -1,4 +1,4 @@
-package ua.ithillel.retry;
+package retry;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

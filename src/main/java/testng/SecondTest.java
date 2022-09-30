@@ -1,4 +1,4 @@
-package ua.ithillel.testng;
+package testng;
 
 import org.testng.Assert;
 import org.testng.annotations.Test;

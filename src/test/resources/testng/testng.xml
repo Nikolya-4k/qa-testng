@@ -2,13 +2,13 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
 
 <suite name="smoke Test Suite">
-    <listeners>
-        <listener class-name="ua.ithillel.listeners.Listener"></listener>
-    </listeners>
+<!--    <listeners>-->
+<!--        <listener class-name="ua.ithillel.listeners.Listener"></listener>-->
+<!--    </listeners>-->
 
     <test name="First Test">
         <classes>
-            <class name="ua.ithillel.testng.FirstTest"/>
+<!--            <class name="ua.ithillel.testng.FirstTest"/>-->
         </classes>
     </test>
 </suite>
